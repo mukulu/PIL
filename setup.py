@@ -36,7 +36,7 @@ def libinclude(root):
 TCL_ROOT = None
 LCMS_ROOT = None
 FREETYPE_ROOT = None
-JPEG_ROOT = None
+JPEG_ROOT = libinclude("/usr/lib")
 TIFF_ROOT = None
 ZLIB_ROOT = None
 
